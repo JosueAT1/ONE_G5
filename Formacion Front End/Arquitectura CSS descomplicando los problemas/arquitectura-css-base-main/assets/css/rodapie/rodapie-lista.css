@@ -1,0 +1,16 @@
+.rodapie__lista{
+    display: flex; 
+}
+
+@media screen and (min-width: 0){
+    .rodapie__lista{
+        flex-direction: column;
+        margin-right: 5rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .rodapie__lista{
+        flex-direction: row;
+    }
+}
